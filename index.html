@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>desing by Amir_3an</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+         <img class="logo" src="icon and desing/logo.png">
+         <nav>
+            <ul id="menuList">
+                <li><a href="#">Game Controllers</a></li>
+                <li><a href="#">VR Accessories</a></li>
+                <li><a href="#">Media Remotes</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+         </nav>
+         <img class="menu" src="icon and desing/menu.png" onclick="togglemenu()">
+         </div>
+         <div class="row">
+         <div class="col-1">
+            <h2>PS4 V2<br>Dualshock 4</h2>
+            <h3>Wireless Controller for PlayStation 4</h3>
+            <p>(Compatible/Generic)</p>
+            <h4>$32.50</h4>
+            <button>Buy Now<img src="icon and desing/arrow.png"></button>
+         </div>
+         <div class="col-2">
+            <img src="icon and desing/controller.png" class="controller">
+            <div class="color-box"></div>
+            <div class="add-btn">
+                <img src="icon and desing/add.png">
+                <p><small>Add to Cart</small></p>
+            </div>
+         </div>
+    </div>
+    <div class="social-links">
+    <img src="icon and desing/fb.png">
+    <img src="icon and desing/tw.png">
+    <img src="icon and desing/ig.png">
+    </div>
+</div>
+
+
+<script>
+
+    var menuList = document.getElementById("menuList");
+    var menuIcons = document.getElementById("menuIcons");
+    
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+
+</body>
+</html>
+
